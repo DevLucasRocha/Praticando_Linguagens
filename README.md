@@ -1,4 +1,5 @@
-# 👋 Olá, eu sou Lucas Rocha!
+# 👋 Seja Bem-vindo 
+Me chame de Lucas Rocha!
 
 <h3>💼 Engenheiro de Software | 🚀 Apaixonado por Tecnologia e Inovação </h3>
 <h3>🎯 Proativo, resiliente, analítico e focado em soluções criativas para desafios do dia a dia.</h3>
