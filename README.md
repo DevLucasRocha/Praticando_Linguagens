@@ -1,7 +1,7 @@
 # 👋 Seja Bem-vindo 
 # Eu sou Lucas Rocha&#x1F604;!
 
-<h3>💼 Engenheiro de Software | 🚀 Apaixonado por Tecnologia e Inovação </h3>
+<h3>💼 Estudante de engenheira de Software | 🚀 Apaixonado por Tecnologia e Inovação </h3>
 <h3>🎯 Proativo, resiliente, analítico e focado em soluções criativas para desafios do dia a dia.</h3>
 
 ---
