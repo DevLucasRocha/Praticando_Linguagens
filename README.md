@@ -1,4 +1,4 @@
 # Olá Mundo
  Primeiro repositório para testes;
  
- Essa linha adicionei no site direto no portal GitHub
+ Essa linha adicionei direto no portal GitHub
