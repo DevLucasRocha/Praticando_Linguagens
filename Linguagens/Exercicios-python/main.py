@@ -15,15 +15,15 @@ print(nome,idade,peso)'''
 
 '''nome_1 = input("Digite seu nome: ")
 idade_1 = int(input('Digite sua idade: '))
-peso_1 = float(input('Digite seu peso :'))'''
+peso_1 = float(input('Digite seu peso :'))
 
-resultado_teste = nome_1,idade_1,peso_1
+resultado_teste = nome_1,idade_1,peso_1'''
 
 #dá para identificar qual o tipo da váriavel usando o comando type.
 
-print (type(nome_1))
+'''print (type(nome_1))
 print (type(idade_1))
-print (type(peso_1))
+print (type(peso_1))'''
 
 #Matemática - sinais de operação: 
 
@@ -130,4 +130,18 @@ npcs = {
     {"nome": "Monstrão", "dano": 200, "HP" : 150, "exp": 350},
     {"nome": "Chefão", "dano": 580, "HP" : 600, "exp": 1250},
 }
+
+# Funções - blocos reutilizaveis de códigos para fazer tarefas especificas usando comando "def"
+# demonstração usando loop
+
+def minha_funcao(valor1, valor2):
+    return valor1 + valor2
+
+
+while True:
+    valor1 = int(input("Valor1: "))
+    valor2 = int(input("Valor2: "))
+
+    resposta = minha_funcao(valor1, valor2)
+    print(valor1, "+", valor2, "=", resposta)
 
