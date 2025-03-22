@@ -17,7 +17,7 @@ print(nome,idade,peso)'''
 idade_1 = int(input('Digite sua idade: '))
 peso_1 = float(input('Digite seu peso :'))'''
 
-Resultado_1 = nome_1,idade_1,peso_1
+resultado_teste = nome_1,idade_1,peso_1
 
 #dá para identificar qual o tipo da váriavel usando o comando type.
 
@@ -59,4 +59,75 @@ else:
 # quando a linha vai um pouco mais para frente como no exemplo acima, se chama IDENTAÇÃO(são espaçamentos consistentes no inicio da linha do código, usado para demilitar blocos de código). Pode-se usar o atalho TAB.
 
 #LISTAS;
-#
+#São conjuntos de dados armazenados em uma váriável. Na lista existe o indice sempre começar do 0,1,2,3... isso seria a ordem dos dados não o dado em si, siga o exemplo abaixo.
+
+lista_numeros = [1,2,3]
+
+lista_numeros[0] = 5
+#perceba que acima foi atribuido o valor '5' no indice '0' substituindo o valor 1 por 5. e a lista não precisa ser só numeros, pode ser atribuidos strings, floats, int e etc..
+
+print(lista_numeros [0])
+print(lista_numeros [1])
+print(lista_numeros [2])
+
+#existem vários métodos, procure no google e pratique.
+
+#REPETIÇÕES
+#FOR - loop que pecorre sequências, repetindo ações para cada elemento;
+
+'''notas = []
+for x in range(5):
+    codigo_aluno = input('RM:')
+    nota = float (input('Nota:'))
+    resultado = [codigo_aluno, nota]
+    notas.append(resultado)'''
+
+    #append - adiciona um elemento no final da lista, neste caso está adicionando no final da lista de 'notas'
+
+'''print('quantidade de notas', len(notas))'''
+
+#len - contar o número de itens de uma sequência, como uma string, lista, tupla ou dicionário.
+
+'''for n in notas:
+    codigo_aluno = n[0]
+    nota = n[1]
+    print('O RM', codigo_aluno, 'tirou a nota:', nota)'''
+
+#While - loop que executa ações enquanto a condição for verdadeira ou eternamente.
+
+notas = []
+contador = 1
+
+while contador <= 5:
+    codigo_aluno = input('RM: ')
+    nota = float(input('Nota: '))
+    resultado = [codigo_aluno, nota]
+    notas.append(resultado)
+    # alternativa: contador += 1
+    contador = contador + 1
+print('quantidade de notas', len (notas))
+
+#existe também o "while True" T sempre em maiusculo (enquanto verdadeiro) gera um loop infinito, porém se for usado o comando "break" quebra o loop.
+
+# é necessário um contador para atribuir valor e gerar o loop no while pois ele significa enquanto algo for >= ou <= a tanto vai continuar rodando o loop ( se não pode fazer o uso do break)
+
+# DICIONÁRIOS - usam chave e valor para armazenar informações: variavel = {"chave: "valor"}
+
+#informações do jogador
+
+player = {
+    "nome" : "Lucas Airon",
+    "Level": 549,
+    "HP" : 7254,
+    "exp": 1523689,
+    "dano": 45689,
+}
+
+#lista de inimigos
+npcs = {
+    {"nome": "Monstrinho", "dano": 2, "HP" : 50, "exp": 5},
+    {"nome": "Monstro", "dano": 5, "HP" : 100, "exp": 10},
+    {"nome": "Monstrão", "dano": 200, "HP" : 150, "exp": 350},
+    {"nome": "Chefão", "dano": 580, "HP" : 600, "exp": 1250},
+}
+
