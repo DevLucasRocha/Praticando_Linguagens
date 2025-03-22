@@ -35,7 +35,7 @@
 
 ## 📈 Meu Gráfico de Atividade
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=WesDevss&theme=github)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DevLucasRocha&theme=github)
 
 
 ---
