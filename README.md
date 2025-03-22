@@ -26,9 +26,9 @@
 ## 🛠 Veja um pouco do meu trabalho
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=WesDevss&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=false" height="150" alt="Stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WesDevss&layout=compact&langs_count=6&theme=radical&hide_border=false" height="150" alt="Languages graph" />
-  <img src="https://github-profile-trophy.vercel.app/?username=WesDevss&theme=monokai&no-frame=false&margin-w=8" height="150" alt="Trophy graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=DevLucasRocha&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=false" height="150" alt="Stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevLucasRocha&layout=compact&langs_count=6&theme=radical&hide_border=false" height="150" alt="Languages graph" />
+  <img src="https://github-profile-trophy.vercel.app/?username=DevLucasRocha&theme=monokai&no-frame=false&margin-w=8" height="150" alt="Trophy graph" />
 </div>
 
 ---
