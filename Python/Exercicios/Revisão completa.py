@@ -26,7 +26,7 @@ print (type(idade_1))
 print (type(peso_1))'''
 
 #Matemática - sinais de operação: 
-
+# % - operador resto, resto da divisão
 soma = 1+1
 subtracao = 1-1
 multiplicacao = 4*4
