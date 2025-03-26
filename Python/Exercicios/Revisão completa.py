@@ -45,7 +45,7 @@ print('pontencia', potencia)
 salario = float(input('Informe seu salário:'))
 
 #usamos IF para SE, ELIF para CASO SE e ELSE para SE NÃO;
-#nas condicionais é muito usado os sinais de comparação (>,<,>>>,<<<,<=,>=,==)
+#nas condicionais é muito usado os sinais de comparação (>,<,>>>,<<<,<=,>=,==,!=)
 
 if salario <= 3000:
     print('Programador junior!')
