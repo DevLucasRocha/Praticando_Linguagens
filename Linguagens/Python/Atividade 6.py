@@ -14,7 +14,7 @@ numeros = (
     random.randint(1, 10)
 )
 for n in numeros:
-    print(n, end=" ", flush=True)
+    print(n, end=" ", flush=True) # flush=True mostra o valor do print imediatamente
     time.sleep(0.3)
 
 print(f"\nMaior número sorteado: {max(numeros)}")
