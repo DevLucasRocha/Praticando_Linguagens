@@ -1,21 +1,24 @@
-#Sorteando números aletórios
-
 import random
 import time
-import os
-import sys
-print("Sorteando números aleatórios")
-print("-"*30)
+
 print("Gerando 5 números aleatórios entre 1 e 10")
-print("-"*30)
+print("-" * 30)
+print("Sorteando números...")
 time.sleep(2)
-for i in range(5): # Gera 5 números aleatórios
-    print(random.randint(1,5)) # Gera números aleatórios entre 1 e 10
-    time.sleep(1)
-print("-"*30)
-print("Maior número sorteado: ", end="")
-os.system("cls") # Limpa a tela
-print(f"menor número sorteado:{i}", end="") 
-os.system("cls") # Limpa a tela
-print("Fim do programa")
-print("-"*30)
+
+numeros = (
+    random.randint(1, 10),
+    random.randint(1, 10),
+    random.randint(1, 10),
+    random.randint(1, 10),
+    random.randint(1, 10)
+)
+for n in numeros:
+    print(n, end=" ", flush=True)
+    time.sleep(0.3)
+
+print(f"\nMaior número sorteado: {max(numeros)}")
+print("-" * 30)
+print(f"Menor número sorteado: {min(numeros)}")
+print("-" * 30)
+print(f"Soma dos números sorteados: {sum(numeros)}")
